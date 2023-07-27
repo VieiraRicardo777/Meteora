@@ -2,13 +2,26 @@
     font-size: 13px;
 }
 
+.facilidades {
+    background-color: black;
+    color: #DAFF01;
+}
+
 .divs-facilidades {
     width: 325px;
+    
 }
+
+.texto-menor {
+    color: #CCCCCC;
+    font-family: 'Inter', sans-serif;
+}
+
 
 .div-novidades {
     width: 325px;
 }
+
 
 @media(min-width: 768px) {
 
@@ -16,4 +29,14 @@
         width: 696px;
     }
 
+}
+
+.card-header {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: #CCCCCC;
+}
+
+.botao-lilas {
+    background-color: #9353FF;
 }

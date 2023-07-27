@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./estilos.css">
 
 </head>
@@ -19,7 +22,7 @@
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-md bg-black navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">METEORA</a>
+            <a class="navbar-brand" href="#"><h1 class="m-0"><img class="d-block" src="/assets/logo-meteora.png" alt="Logo da loja Meteora"></h1></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -41,8 +44,8 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Digite o Produto" aria-label="Buscar">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o Produto" aria-label="Buscar">
+                    <button class="btn btn-outline-light rounded-0" type="submit">Search</button>
                 </form>
             </div>
         </div>
@@ -61,13 +64,7 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
-                        dy=".3em">First slide</text>
-                </svg>
+                <img class=“img-fluid” src=/assets/Mobile/banner1-mobile.png alt=”Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás”>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
@@ -232,7 +229,7 @@
                         card's
                         content.</p>
                     <p>R$30,00</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
                 </div>
             </div>
         </div>
@@ -253,7 +250,7 @@
                         card's
                         content.</p>
                     <p>R$30,00</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
                 </div>
             </div>
         </div>
@@ -274,7 +271,7 @@
                         card's
                         content.</p>
                     <p>R$30,00</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
                 </div>
             </div>
         </div>
@@ -295,7 +292,7 @@
                         card's
                         content.</p>
                     <p>R$30,00</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
                 </div>
             </div>
         </div>
@@ -316,7 +313,7 @@
                         card's
                         content.</p>
                     <p>R$30,00</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
                 </div>
             </div>
         </div>
@@ -337,7 +334,7 @@
                         card's
                         content.</p>
                     <p>R$30,00</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
                 </div>
             </div>
         </div>
@@ -347,7 +344,7 @@
 
 
     <section class="pb-4">
-
+        <div class="facilidades">
         <h2 class="text-center">Conheça todas as nossas facilidades</h2>
 
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
@@ -376,6 +373,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
     </section>
 
@@ -388,12 +386,11 @@
         <div class="input-group my-3">
           <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail"
             aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
-          <button type="button"
-            id="button-addon2">Enviar</button>
+          <button class="btn rounded-0" id="button-addon2">Enviar</button>
         </div>
       </form>
 
-    <footer class="text-center">
+    <footer class="text-center bg-black text-bg-dark">
         <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
     </footer>
 
